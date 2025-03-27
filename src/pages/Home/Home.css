@@ -56,7 +56,80 @@
     justify-content: space-between;
 }
 
+.box-balance .title{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
 .box-balance .value{
+    text-align: center;
     letter-spacing: 2px;
 }
 
+.third-layer{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-layer .amount-layer, .desc-layer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.third-layer .amount-layer .input-layer{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-amount , .input-desc{
+    padding: 1.3rem;
+    background-color: white;
+    color: black;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.input-desc{
+    margin-top: 1rem;
+}
+
+.btn-amount .btn{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem 3rem;
+    margin-left: 1.5rem;
+    border-radius: 10px;
+}
+
+.btn-amount .add-btn{
+    background-color: #00FF11;
+    color: black;
+}
+
+.btn-amount .deduct-btn{
+    background-color: #FF0000;
+    color: white;
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.submit-btn button{
+    padding: 1rem 3rem;
+    background-color: #00F2FF;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
