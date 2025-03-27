@@ -19,11 +19,44 @@
 }
 
 .first-layer .title{
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 700;
     color: #00F2FF;
 }
 
 .first-layer .profile-name{
-    font-size: 2rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
 }
+
+.first-layer .arrow-icon{
+    font-size: 3rem;
+}
+
+.second-layer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.second-layer .sub-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.second-layer .box-balance{
+    border: 2px solid #00F2FF;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-balance .value{
+    letter-spacing: 2px;
+}
+

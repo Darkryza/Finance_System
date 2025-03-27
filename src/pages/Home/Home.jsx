@@ -8,16 +8,26 @@ function Home() {
             <div className="home-container">
                 <div className="first-layer">
                     <div className="title">Finance System</div>
-                    <div className="profile-name">Fakhrul<span class="material-symbols-outlined">arrow_drop_down</span></div>
+                    <div className="profile-name">Fakhrul<span className="material-symbols-outlined arrow-icon">arrow_drop_down</span></div>
                 </div>
                 <div className="second-layer">
                     <div className="sub-title">Current Balance</div>
                     <div className="box-balance">
                         <div className="bank-acc">
-
+                            <div className="title">
+                                Bank Account
+                            </div>
+                            <div className="value">
+                                RM5,000.00
+                            </div>
                         </div>
                         <div className="cash-balance">
-                            
+                            <div className="title">
+                                Cash Balance
+                            </div>
+                            <div className="value">
+                                RM500.00
+                            </div>
                         </div>
                     </div>
                 </div>
