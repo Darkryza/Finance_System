@@ -6,12 +6,9 @@
     align-items: center;
 }
 
-.title{
-    font-size: 2.5rem;
-    color: #00F2FF;
-}
-
 .home-container{
+    width: 50%;
+    height: 80%;
     display: flex;
     flex-direction: column;
 }
@@ -21,6 +18,12 @@
     justify-content: space-between;
 }
 
-/* .first-layer{
+.first-layer .title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #00F2FF;
+}
 
-} */
+.first-layer .profile-name{
+    font-size: 2rem;
+}

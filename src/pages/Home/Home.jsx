@@ -8,7 +8,7 @@ function Home() {
             <div className="home-container">
                 <div className="first-layer">
                     <div className="title">Finance System</div>
-                    <div className="profile-name">Fakhrul</div>
+                    <div className="profile-name">Fakhrul<span class="material-symbols-outlined">arrow_drop_down</span></div>
                 </div>
                 <div className="second-layer">
                     <div className="sub-title">Current Balance</div>
