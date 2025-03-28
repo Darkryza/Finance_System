@@ -88,7 +88,7 @@
     background-color: #650808;
 }
 
-@keyframes transitionIn{
+/* @keyframes transitionIn{
     from{
         transform: translateY(-40px);
     }
@@ -104,4 +104,4 @@
     to{
         opacity: 1;
     }
-}
+} */
